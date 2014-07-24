@@ -1,0 +1,15 @@
+{
+  	"name": "Cookie bar monster",
+  	"version": "1.0",
+	"manifest_version": 2,
+  	"description": "Oculta la barra que te pida permisos para aceptar cookies",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"],
+			"js": ["jquery.js","main.js"]
+		}
+	],
+	"icons": {
+		"48": "icon.png"
+	}
+}

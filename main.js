@@ -1,4 +1,4 @@
 $(function(){
-	$('div[class*=cookie]').hide();
-	$('div[id*=cookie]').hide();
+	$('div[class*=cookie]').remove();
+	$('div[id*=cookie]').remove();
 });
